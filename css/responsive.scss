@@ -1,0 +1,137 @@
+@media(max-width: 700px){
+    .bar{
+        position: relative;
+        visibility: visible;
+    }
+    .navbar{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-top: 44px;
+        padding-top: 80px;
+        background-color: #4B1875;
+        z-index: 0;
+        display: none;
+    }
+    .LogoImage{
+        z-index: 1000;
+    }
+    .navbar__menu{
+        display: block;
+        li{
+            padding: 10px 0px;
+            background-image: linear-gradient(#4B1875, #612592);
+            margin: 0;
+        }
+        a:hover{
+            border: none !important;
+        }
+    }
+    .ContactUs__content{
+        display: block;
+        .ContactInfo li{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .SendMessage{
+        width: 100%;
+        #MessageSenderName, #MessageSenderEmail, #MessageText{
+            width: -webkit-fill-available !important;
+        }
+    }
+}
+@media(max-width: 494px){
+    .ButtonsInFluid{
+        justify-content: center;
+    }
+    .WatchVideo__InFluid{
+        margin-top: 20px;
+    }
+    .FluidTitle{
+        font-size: 65px;
+        transition: 0.5s;
+    }
+}
+@media(max-width: 1028px){
+    .MarketingContent li{
+        width: 40%;
+    }
+}
+@media(max-width: 749px){
+    .MarketingContent{
+        justify-content: center;
+    }
+    .MarketingContent__Title{
+        font-size: 30px;
+        transition: 0.5s;
+    }
+    .MarketingContent li{
+        width: 80%;
+    }
+}
+@media(max-width: 800px){
+    .marketonTitle{
+        font-size: 35px;
+        transition: 0.7s;
+        text-align: center;
+    }
+    .marketon__Describe{
+        display: block;
+    }
+    .MarketonImage{
+        width: 170px !important;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .marketonDescribe_text{
+        width: 90% !important;
+        margin: auto;
+    }
+    .marketontext{
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+}
+@media(max-width: 840px){
+    .OurPriority__components{
+        height: 1327px;
+        display: block;
+        li{
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+        }
+    }
+    .OurPriority__title{
+        font-size: 32px;
+        transition: 0.5s;
+        width: 92%;
+    }
+}
+@media(max-width: 499px){
+    .OurPriority__components li{
+        width: 90%;
+        transition: 1s;
+    }
+}
+@media(max-width: 950px){
+    .OurServicesPrices__content{
+        display: block !important;
+        li{
+            width: 90% !important;
+            margin: auto;
+        }
+    }
+}
+@media(max-width: 730px){
+    .footer__Content p{
+        width: 95% !important;
+    }
+}
+@media(max-width: 360px){
+    .SocialOnHeader{
+        display: none;
+    }
+}

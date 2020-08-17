@@ -1,0 +1,549 @@
+
+//classes for several usage
+.flex{
+    display: flex;
+    align-items: center;
+}
+.headerTextColor{
+    color: white;
+    margin-left: 10px;
+    &:hover{
+        color: #2d63ef;
+    }
+}
+
+$HeaderBgColor: #4B1875;
+.header__container{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $HeaderBgColor;
+}
+.Header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 41px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.ContactEmail{
+    font-size: 14px;
+}
+//socila wide classes
+.SocialOnHeader{
+    display: flex;
+    align-items: center;
+    li{
+        margin: 0px 5px;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        &:last-child{
+            margin-right: 0px;
+            padding-right: 0px;
+        }
+        a{
+            border-radius: 20px;
+            border: white 2px solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            font-size: 12px !important;
+            color: white;
+            &:hover{
+                background-color: white;
+                color: blue !important;
+            }
+        }
+    }
+}
+#myBtn{
+    position: fixed;
+    margin-left: 100%;
+    transform: translate(-130%, -200%);
+    border-radius: 50%;
+    background-color: #23bc3d;
+    cursor: pointer;
+    border: #23bc3d 1px solid;
+    font-size: 30px;
+    color: white;
+    margin-top: 100vh;
+    width: 70px;
+    height: 70px;
+}
+.CallUs{
+    position: fixed;
+    margin-left: 30px;
+    transform: translateY(-200%);
+    border-radius: 50%;
+    background-color: #23bc3d;
+    cursor: pointer;
+    border: #23bc3d 1px solid;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100vh;
+    width: 70px;
+    height: 70px;
+}
+.marker{
+    color: #2d63ef;
+}
+.Fluid__container{
+    width: 100%;
+    height: 980px;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -100;
+}
+.fluidHeadline{
+    padding-top: 20px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.LogoImage:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.bar{
+    position: absolute;
+    visibility: hidden;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.navbar__menu{
+    display: flex;
+    text-align: center;
+    li{
+        margin: 0px 5px;
+        &:last-child{
+            margin-right: 0px !important;
+            padding-right: 0px !important;
+        }
+        a{
+            height: 20px;
+            color: white;
+            font-size: 18px;
+            padding: 10px 10px;
+            &:hover{
+                border-bottom: #2d63ef 3px solid;
+                transition: 0.8s;
+            }
+        }
+    }
+}
+.fluidCentralContent{
+    width: 100%;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.FluidTitle{
+    text-align: center;
+    font-size: 90px;
+    color: white;
+}
+.FluidTitleInH3{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    color: white;
+}
+.fluidDescribe{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 35px;
+    width: 60%;
+    line-height: 30px;
+}
+.ButtonsInFluid{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ContactUs__InFluid{
+    background-color: #5bbd3e;
+    border: 2px #5bbd3e solid;
+    padding: 20px 0px;
+    width: 200px;
+    border-radius: 35px;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(9, 9, 43);
+        transition: 0.6s;
+        border: rgb(9, 9, 43) 2px solid;
+    }
+}
+.WatchVideo__InFluid{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    cursor: pointer;
+    border: 2px white solid;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    width: 200px;
+    text-transform: uppercase;
+    border-radius: 35px;
+    &:hover{
+        background-color: rgb(9, 9, 43);
+        transition: 0.6s;
+        border: rgb(9, 9, 43) 2px solid;
+    }
+}
+.MarketingContent__container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    flex-direction: column;
+    margin-top: 90px !important;
+    margin: auto;
+}
+.MarketingContent__Headline{
+    font-size: 17px;
+    color: #2db8f5;
+    text-align: center;
+}
+.MarketingContent__Title{
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+.MarketingContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: space-between;
+    li{
+        width: 29%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        img{
+            width: 120px;
+            margin: auto;
+        }
+        .MarketingContentHead{
+            font-size: 20px;
+            margin-top: 25px;
+        }
+        .MarketingContent__detail{
+            height: 90px;
+            margin-top: 15px;
+        }
+    }
+}
+.MarketonContent__Container{
+    height: 745px;
+    width: 100%;
+    background-color: #e3eaf3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.WhatWeDo{
+    font-size: 19px;
+    color: #2db8f5;
+}
+.marketonTitle{
+    font-size: 49px;
+    margin-top: 10px;
+}
+.marketon__Describe{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    .MarketonImage{
+        width: 25%;
+    }
+    .marketonDescribe_text{
+        width: 40%;
+    }
+    .marketontext{
+        font-size: 18px;
+        color: rgb(14, 13, 13);
+        line-height: 25px;
+    }
+    .ContactUs__inMarketon{
+        @extend .ContactUs__InFluid;
+        margin: 0px;
+        margin-top: 20px;
+    }
+}
+.OurPriority__Container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px 0px;
+}
+.OurPriorityTitle__paragraph{
+    font-size: 19px;
+    color: #2db8f5;
+}
+.OurPriority__title{
+    font-size: 45px;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    margin-top: 8px;
+}
+.OurPriority__components{
+    width: 90%;
+    height: 416px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li{
+        list-style-type: none;
+        width: 29%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 416px;
+        flex-direction: column;
+        border: 3px #d1dceb solid;
+        border-radius: 18px;
+        &:hover{
+            border-color: rgb(0, 163, 0);
+            transition: 0.7s;
+        }
+    }
+    .PriorityTitle{
+        font-size: 25px;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .HrInPriority{
+        height: 4px;
+        width: 60px;
+        background-color: rgb(0, 163, 0);
+    }
+    .PriorityDescription{
+        width: 85%;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+.OurPrices__container{
+    background-color: #6427af;
+    width: 100%;
+    padding: 90px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .OutPrices__title{
+        font-size: 46px;
+        color: white;
+        text-align: center;
+    }
+    .OurServicesPrices__content{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        color: white;
+        li{
+            width: 31%;
+            height: 550px;
+            background-color: rgba(15,53,108,0.2);
+            border: rgba(255,255,255,0.2) 3px solid;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            &:hover{
+                background-color: #4b1e81;
+                transition: 0.6s;
+            }
+        }
+        .BasicTariph__description li{
+            width: 100%;
+            height: 30px;
+            background: none;
+            border: none;
+        }
+        .BasicServicePrice{
+            font-size: 20px;
+            margin-top: 15px;
+            color: rgb(199, 199, 199);
+            .Price{
+                font-size: 80px;
+                color: white;
+            }
+        }
+        .ServiceBasicTariph__title{
+            font-size: 30px;
+            margin-top: 15px;
+        }
+        .HrInTariph{
+            width: 65%;
+            margin-top: 15px;
+        }
+        .BasicTariph__description{
+            width: 65%;
+            margin-top: 15px;
+            line-height: 25px;
+        }
+        .BuyTariphNow__Basic{
+            height: 55px;
+            width: 200px;
+            border-radius: 50px;
+            margin-top: 30px;
+            background: #23bc3d;
+            border: #23bc3d 1px solid;
+            font-size: 22px;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(9, 9, 43);
+                border: rgb(9, 9, 43) 1px solid;
+                transition: 0.6s;
+            }
+        }
+    }
+}
+.ContactUs__container{
+    width: 90%;
+    padding: 90px 0px;
+    margin: auto;
+}
+.ContactInfo{
+    
+    a{
+        font-size: 17px;
+        margin-left: 10px;
+        color: rgb(26, 26, 26);
+        &:hover{
+            color: rgb(161, 25, 161);
+            transition: 0.5s;
+        }
+    }
+    i{
+        color: rgb(161, 25, 161);
+        font-size: 25px;
+        width: 30px;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        padding: 20px 0px;
+    }
+}
+.SendMessage{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    input, textarea{
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 18px;
+        border: 2px #6427af solid;
+        border-radius: 30px;
+        margin: 10px 0px;
+    }
+    .SendMessage{
+        width: fit-content;
+        padding: 15px 70px;
+        background-color: #23bc3d;
+        border: #23bc3d 1px solid;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer !important;
+        &:hover{
+            background-color: rgb(9, 9, 43);
+            border: rgb(9, 9, 43) 1px solid;
+            transition: 0.6s;
+        }
+    }
+}
+.ContactUs__title{
+    font-size: 49px;
+}
+.ContactUs__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Footer__Contariner{
+    background-color: #242424;
+    padding: 70px 0px;
+}
+.footer__Content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p{
+        padding: 20px 0px;
+        width: 65%;
+        text-align: center;
+        color: white;
+    }
+}
+.LogoInFooter{
+    transform: scale(1.2);
+}
+.ContactInfoInFooter{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    li{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+    a{
+        color: white;
+        margin-left: 15px;
+        &:hover{
+            color: #23bc3d;
+            transition: 0.5s;
+        }
+    }
+    i{
+        color: #23bc3d;
+    }
+}

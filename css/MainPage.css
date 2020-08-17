@@ -1,0 +1,817 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerTextColor {
+  color: white;
+  margin-left: 10px;
+}
+
+.headerTextColor:hover {
+  color: #2d63ef;
+}
+
+.header__container {
+  width: 100%;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #4B1875;
+}
+
+.Header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 41px;
+  width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ContactEmail {
+  font-size: 14px;
+}
+
+.SocialOnHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SocialOnHeader li {
+  margin: 0px 5px;
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+}
+
+.SocialOnHeader li:last-child {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.SocialOnHeader li a {
+  border-radius: 20px;
+  border: white 2px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  font-size: 12px !important;
+  color: white;
+}
+
+.SocialOnHeader li a:hover {
+  background-color: white;
+  color: blue !important;
+}
+
+#myBtn {
+  position: fixed;
+  margin-left: 100%;
+  -webkit-transform: translate(-130%, -200%);
+          transform: translate(-130%, -200%);
+  border-radius: 50%;
+  background-color: #23bc3d;
+  cursor: pointer;
+  border: #23bc3d 1px solid;
+  font-size: 30px;
+  color: white;
+  margin-top: 100vh;
+  width: 70px;
+  height: 70px;
+}
+
+.CallUs {
+  position: fixed;
+  margin-left: 30px;
+  -webkit-transform: translateY(-200%);
+          transform: translateY(-200%);
+  border-radius: 50%;
+  background-color: #23bc3d;
+  cursor: pointer;
+  border: #23bc3d 1px solid;
+  font-size: 30px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100vh;
+  width: 70px;
+  height: 70px;
+}
+
+.marker {
+  color: #2d63ef;
+}
+
+.Fluid__container {
+  width: 100%;
+  height: 980px;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -100;
+}
+
+.fluidHeadline {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.LogoImage:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bar {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.navbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.navbar__menu li {
+  margin: 0px 5px;
+}
+
+.navbar__menu li:last-child {
+  margin-right: 0px !important;
+  padding-right: 0px !important;
+}
+
+.navbar__menu li a {
+  height: 20px;
+  color: white;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+
+.navbar__menu li a:hover {
+  border-bottom: #2d63ef 3px solid;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.fluidCentralContent {
+  width: 100%;
+  height: calc(100% - 80px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.FluidTitle {
+  text-align: center;
+  font-size: 90px;
+  color: white;
+}
+
+.FluidTitleInH3 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 15px;
+  color: white;
+}
+
+.fluidDescribe {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  margin-top: 35px;
+  width: 60%;
+  line-height: 30px;
+}
+
+.ButtonsInFluid {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ContactUs__InFluid, .marketon__Describe .ContactUs__inMarketon {
+  background-color: #5bbd3e;
+  border: 2px #5bbd3e solid;
+  padding: 20px 0px;
+  width: 200px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  margin: 0px 20px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ContactUs__InFluid:hover, .marketon__Describe .ContactUs__inMarketon:hover {
+  background-color: #09092b;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border: #09092b 2px solid;
+}
+
+.WatchVideo__InFluid {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  cursor: pointer;
+  border: 2px white solid;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  width: 200px;
+  text-transform: uppercase;
+  border-radius: 35px;
+}
+
+.WatchVideo__InFluid:hover {
+  background-color: #09092b;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border: #09092b 2px solid;
+}
+
+.MarketingContent__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 90px !important;
+  margin: auto;
+}
+
+.MarketingContent__Headline {
+  font-size: 17px;
+  color: #2db8f5;
+  text-align: center;
+}
+
+.MarketingContent__Title {
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.MarketingContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.MarketingContent li {
+  width: 29%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.MarketingContent li img {
+  width: 120px;
+  margin: auto;
+}
+
+.MarketingContent li .MarketingContentHead {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.MarketingContent li .MarketingContent__detail {
+  height: 90px;
+  margin-top: 15px;
+}
+
+.MarketonContent__Container {
+  height: 745px;
+  width: 100%;
+  background-color: #e3eaf3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.WhatWeDo {
+  font-size: 19px;
+  color: #2db8f5;
+}
+
+.marketonTitle {
+  font-size: 49px;
+  margin-top: 10px;
+}
+
+.marketon__Describe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px;
+}
+
+.marketon__Describe .MarketonImage {
+  width: 25%;
+}
+
+.marketon__Describe .marketonDescribe_text {
+  width: 40%;
+}
+
+.marketon__Describe .marketontext {
+  font-size: 18px;
+  color: #0e0d0d;
+  line-height: 25px;
+}
+
+.marketon__Describe .ContactUs__inMarketon {
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.OurPriority__Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 90px 0px;
+}
+
+.OurPriorityTitle__paragraph {
+  font-size: 19px;
+  color: #2db8f5;
+}
+
+.OurPriority__title {
+  font-size: 45px;
+  color: #363636;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.OurPriority__components {
+  width: 90%;
+  height: 416px;
+  margin: auto;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.OurPriority__components li {
+  list-style-type: none;
+  width: 29%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 416px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 3px #d1dceb solid;
+  border-radius: 18px;
+}
+
+.OurPriority__components li:hover {
+  border-color: #00a300;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.OurPriority__components .PriorityTitle {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.OurPriority__components .HrInPriority {
+  height: 4px;
+  width: 60px;
+  background-color: #00a300;
+}
+
+.OurPriority__components .PriorityDescription {
+  width: 85%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.OurPrices__container {
+  background-color: #6427af;
+  width: 100%;
+  padding: 90px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.OurPrices__container .OutPrices__title {
+  font-size: 46px;
+  color: white;
+  text-align: center;
+}
+
+.OurPrices__container .OurServicesPrices__content {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+  color: white;
+}
+
+.OurPrices__container .OurServicesPrices__content li {
+  width: 31%;
+  height: 550px;
+  background-color: rgba(15, 53, 108, 0.2);
+  border: rgba(255, 255, 255, 0.2) 3px solid;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.OurPrices__container .OurServicesPrices__content li:hover {
+  background-color: #4b1e81;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.OurPrices__container .OurServicesPrices__content .BasicTariph__description li {
+  width: 100%;
+  height: 30px;
+  background: none;
+  border: none;
+}
+
+.OurPrices__container .OurServicesPrices__content .BasicServicePrice {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #c7c7c7;
+}
+
+.OurPrices__container .OurServicesPrices__content .BasicServicePrice .Price {
+  font-size: 80px;
+  color: white;
+}
+
+.OurPrices__container .OurServicesPrices__content .ServiceBasicTariph__title {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.OurPrices__container .OurServicesPrices__content .HrInTariph {
+  width: 65%;
+  margin-top: 15px;
+}
+
+.OurPrices__container .OurServicesPrices__content .BasicTariph__description {
+  width: 65%;
+  margin-top: 15px;
+  line-height: 25px;
+}
+
+.OurPrices__container .OurServicesPrices__content .BuyTariphNow__Basic {
+  height: 55px;
+  width: 200px;
+  border-radius: 50px;
+  margin-top: 30px;
+  background: #23bc3d;
+  border: #23bc3d 1px solid;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+.OurPrices__container .OurServicesPrices__content .BuyTariphNow__Basic:hover {
+  background-color: #09092b;
+  border: #09092b 1px solid;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.ContactUs__container {
+  width: 90%;
+  padding: 90px 0px;
+  margin: auto;
+}
+
+.ContactInfo a {
+  font-size: 17px;
+  margin-left: 10px;
+  color: #1a1a1a;
+}
+
+.ContactInfo a:hover {
+  color: #a119a1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ContactInfo i {
+  color: #a119a1;
+  font-size: 25px;
+  width: 30px;
+}
+
+.ContactInfo li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+}
+
+.SendMessage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.SendMessage input, .SendMessage textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 18px;
+  border: 2px #6427af solid;
+  border-radius: 30px;
+  margin: 10px 0px;
+}
+
+.SendMessage .SendMessage {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 70px;
+  background-color: #23bc3d;
+  border: #23bc3d 1px solid;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer !important;
+}
+
+.SendMessage .SendMessage:hover {
+  background-color: #09092b;
+  border: #09092b 1px solid;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.ContactUs__title {
+  font-size: 49px;
+}
+
+.ContactUs__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer__Contariner {
+  background-color: #242424;
+  padding: 70px 0px;
+}
+
+.footer__Content {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__Content p {
+  padding: 20px 0px;
+  width: 65%;
+  text-align: center;
+  color: white;
+}
+
+.LogoInFooter {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.ContactInfoInFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ContactInfoInFooter li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.ContactInfoInFooter a {
+  color: white;
+  margin-left: 15px;
+}
+
+.ContactInfoInFooter a:hover {
+  color: #23bc3d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ContactInfoInFooter i {
+  color: #23bc3d;
+}
+/*# sourceMappingURL=MainPage.css.map */

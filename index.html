@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--important meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="Marketing Services, Benefits, Marketon Content Marketing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Marketing Services">
+    <!--linked files-->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/MainPage.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/4106aa3140.js" crossorigin="anonymous" SameSite="fontawesome"></script>
+    <title>Marketing Sevice</title>
+</head>
+<body>
+    
+    <!--Header section HTML code-->
+    <header class="header__container">
+        <div class="Header__content">
+            <a href="exampleemail@gmail.com" class="ContactEmail flex"> <i class="fas fa-envelope"></i> <p class="headerTextColor">exampleemail@gmail.com</p> </a>
+            <a href="tel:(123) 456-7890" class="flex"> <i class="fas fa-phone"></i> <p class="headerTextColor">(123) 456-7890</p> </a>
+            <a href="#" class="flex"> <i class="fas fa-map-marker-alt marker"></i> <p class="headerTextColor">437 S Olive St, Los Angeles</p> </a>
+            <ul class="SocialOnHeader">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <a href="tel:(123) 456-7890" class="CallUs"><i class="fas fa-phone"></i></a>
+    <!--Fluid container code-->
+    <section class="Fluid__container">
+        <div class="fluidHeadline" id="navigation">
+            <a href="index.html" class="LogoImage"><img src="images/logo" alt="LogoImage"></a>
+            <nav class="navbar">
+                <ul class="navbar__menu" id="Navbar"></ul>
+            </nav>
+            <i class="fas fa-bars bar"></i>
+        </div>
+        <div class="fluidCentralContent">
+            <h1 class="FluidTitle">Marketon</h1>
+            <h3 class="FluidTitleInH3">Content Marketing Company</h3>
+            <p class="fluidDescribe">As a one-stop digital copywriting company, we will help you 
+                boost sales, bring new customers and optimize your advertising budget.
+            </p>
+            <div class="ButtonsInFluid">
+                <button class="ContactUs__InFluid">Contact Us</button>
+                <button class="WatchVideo__InFluid">Watch video</button>
+            </div>
+        </div>
+    </section>
+    <section class="MarketingContent__container">
+        <h6 class="MarketingContent__Headline">High-quality content for your businesses</h6>
+        <h2 class="MarketingContent__Title">Our Content Marketing Services Include</h2>
+        <ul class="MarketingContent" id="MarketingContentLi"></ul>
+    </section>
+    <section class="MarketonContent__Container">
+        <p class="WhatWeDo">What we do</p>
+        <h2 class="marketonTitle">Marketon Content Marketing</h2>
+        <div class="marketon__Describe">
+            <img src="images/mt-1377-home2-icon1.png" alt="MarketonImage" class="MarketonImage">
+            <div class="marketonDescribe_text">
+                <p class="marketontext"> 
+                    Are you looking for ways to increase conversions but having
+                    a hard time turning visits into sales? <br> <br>
+                    Our content marketing services were developed with you in mind. 
+                    By cooperating with us, our clients can concentrate on running their 
+                    businesses instead of content writing and distribution. <br><br>
+                    We create videos, infographics, data visualizations, and more to 
+                    engage your visitors.
+                </p>
+                <button class="ContactUs__inMarketon">Contact us</button>
+            </div>
+        </div>
+    </section>
+    <section class="OurPriority__Container">
+        <p class="OurPriorityTitle__paragraph">Why Choose Us</p>
+        <h3 class="OurPriority__title">Guaranteed PR and Reputation Growth</h3>
+        <ul class="OurPriority__components" id="Priority"></ul>
+    </section>
+    <section class="OurPrices__container">
+        <h3 class="OutPrices__title">Our Prices</h3>
+        <ul class="OurServicesPrices__content" id="Packages"></ul>
+    </section>
+    <section class="ContactUs__container">
+        <p class="ContactUs__title">Contact Us</p>
+        <div class="ContactUs__content">
+            <ul class="ContactInfo" id="contactInfoo"></ul>
+            <form class="SendMessage">
+                <input type="text" name="MessageSenderName" id="MessageSenderName" placeholder="Name *">
+                <input type="email" name="MessageSenderEmail" id="MessageSenderEmail" placeholder="Email *">
+                <textarea name="" id="MessageText" cols="30" rows="6" placeholder="Message *"></textarea>
+                <input type="submit" value="Send" class="SendMessage" id="SendMesaage">
+            </form>
+        </div>
+    </section>
+    <footer class="Footer__Contariner">
+        <div class="footer__Content">
+            <img src="images/logo" alt="LogoInFooter" class="LogoInFooter">
+            <p>
+                When you choose us, you’ll feel the benefit of 15 years’ experience of writing and editing. 
+                We will make all necessary content to help you grow.
+            </p>
+            <hr style="width: 100%; height: 2px; background-color:white;border:white 1px solid">
+            <ul class="ContactInfoInFooter" id="FooterContactInfo"></ul>
+        </div>
+    </footer>
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+    </script>
+
+    <script src="JS/MainPage.js"></script>
+</body>
+</html>
